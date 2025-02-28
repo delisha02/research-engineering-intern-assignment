@@ -1,6 +1,5 @@
 # Ignore Python virtual environment
-venv/
-
+vir/
 # Ignore cache and temporary files
 __pycache__/
 *.pyc
