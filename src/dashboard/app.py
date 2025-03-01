@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import timedelta
-from data_loader import load_data, load_topic_model
+from data_loader import load_data, load_topic_model, clean_topic_name
 
 # Page Configuration
 st.set_page_config(
@@ -45,10 +45,10 @@ if "All" not in selected_subreddits:
 
 
 # Dashboard Title
-st.title("📊 Reddit Election Misinformation Dashboard")
+st.title("📊 The Political Spectrum: Reddit Communities & Their Political Sentiments")
 st.markdown("""
-    This dashboard visualizes patterns of election misinformation on Reddit.
-    Explore how misinformation narratives evolved, which communities were most active,
+    This dashboard visualizes patterns of political discussion on Reddit. 
+    Explore how information narratives evolved, which communities were most active, 
     and how users engaged with different types of content.
 """)
 
@@ -71,14 +71,14 @@ if 'sentiment_score' in filtered_df.columns:
 # Tabs for Visualizations
 tab1, tab2, tab3, tab4 = st.tabs(["Temporal Analysis", "Community Analysis", "Topic Analysis", "Content Explorer"])
 
-# Temporal Analysis
+# Temporal Analysis   , labels={"created_utc": "Date", "count": "Posts"})
 with tab1:
-    st.subheader("Post Activity Over Time")
+    st.subheader("🕑 Post Activity Over Time")
     time_df = filtered_df.groupby(filtered_df['created_utc'].dt.date).size().reset_index(name='count')
     fig = px.line(time_df, x='created_utc', y='count', title="Posts Over Time", labels={"created_utc": "Date", "count": "Posts"})
     st.plotly_chart(fig, use_container_width=True)
-    
-    st.subheader("Sentiment Trends")  
+   
+    st.subheader("📉 Sentiment Trends")
     if 'sentiment_score' in filtered_df.columns:
         sentiment_time = filtered_df.groupby(filtered_df['created_utc'].dt.date)['sentiment_score'].mean().reset_index()
         sentiment_time['created_utc'] = pd.to_datetime(sentiment_time['created_utc'])
@@ -88,78 +88,112 @@ with tab1:
         fig.add_hline(y=0, line_dash="dash", line_color="gray")
         st.plotly_chart(fig, use_container_width=True)
 
-# Community Analysis
+#Community Engagement
 with tab2:
+    # **Subheader for Top 15 Subreddits**
     st.subheader("Top 15 Subreddits by Post Count")
-    subreddit_counts = filtered_df['subreddit'].value_counts().reset_index()
-    subreddit_counts.columns = ['subreddit', 'count']
 
-    # Pie chart for post count by subreddit
-    fig = px.pie(
-        subreddit_counts.head(15),
-        names='subreddit',
-        values='count',
-        title="Distribution of Posts by Subreddit",
-        hole=0.4,  # Creates a donut chart effect
-        color_discrete_sequence=px.colors.qualitative.Set3
-    )
-    st.plotly_chart(fig, use_container_width=True)
+    if 'subreddit' in filtered_df.columns:
+        subreddit_counts = filtered_df['subreddit'].value_counts().reset_index()
+        subreddit_counts.columns = ['subreddit', 'count']
 
-    # Engagement by subreddit (Using Pie Chart)
-    st.subheader("Engagement by Community")    
-    engagement_by_sub = filtered_df.groupby('subreddit').agg({
+        # Capitalize subreddit names
+        subreddit_counts['subreddit'] = subreddit_counts['subreddit'].str.title()
+
+        # Pie chart for post distribution
+        fig = px.pie(
+            subreddit_counts.head(15),
+            names='subreddit',
+            values='count',
+            title="📊 Distribution of Posts by Subreddit",
+            hole=0.4,  # Donut chart effect
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.warning("No subreddit data available.")
+
+    # **Subheader for Engagement Analysis**
+    st.subheader("Engagement by Community")
+
+    if {'subreddit', 'engagement_index'}.issubset(filtered_df.columns):
+        engagement_by_sub = filtered_df.groupby('subreddit').agg({
             'score': 'mean',
             'num_comments': 'mean',
             'upvote_ratio': 'mean',
             'engagement_index': 'mean'
         }).reset_index()
-        
-    engagement_by_sub = engagement_by_sub.sort_values('engagement_index', ascending=False).head(10)
 
-    # Pie chart for engagement index by subreddit
-    fig = px.pie(
-        engagement_by_sub,
-        names='subreddit',
-        values='engagement_index',
-        title="Top 10 Subreddits by Engagement",
-        hole=0.4,
-        color_discrete_sequence=px.colors.qualitative.Set2
-    )
-    st.plotly_chart(fig, use_container_width=True)
+        engagement_by_sub = engagement_by_sub.sort_values('engagement_index', ascending=False).head(10)
+
+        # Capitalize subreddit names
+        engagement_by_sub['subreddit'] = engagement_by_sub['subreddit'].str.title()
+
+        # Pie chart for engagement index
+        fig = px.pie(
+            engagement_by_sub,
+            names='subreddit',
+            values='engagement_index',
+            title="🔥 Top 10 Subreddits by Engagement",
+            hole=0.4,
+            color_discrete_sequence=px.colors.qualitative.Set2
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.warning("Not enough data for engagement analysis.")
 
 # Topic Analysis
 with tab3:
-    st.subheader("Top 10 Topics")
+    
+    st.subheader("🔎 Top Topics of Discussion")
 
     if "topic_name" in filtered_df.columns and not filtered_df.empty:
         topic_counts = filtered_df['topic_name'].value_counts().reset_index()
         topic_counts.columns = ['topic_name', 'count']
 
-        # Plot the top 10 topics
-        fig = px.bar(topic_counts.head(10), x='topic_name', y='count', orientation='v', title="Top Topics")
+        # Apply cleaning function to topic names
+        topic_counts['topic_name'] = topic_counts['topic_name'].apply(clean_topic_name)
+
+        # Plot the top 10 topics with labeled axes
+        fig = px.bar(
+            topic_counts.head(10), 
+            x='topic_name', 
+            y='count', 
+            orientation='v', 
+            title="Top 10 Topics",
+            labels={'topic_name': 'Topic Name', 'count': 'Count'}  # Adding axis labels
+        )
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning("No topic data available.")
 
+    # **All Topics Overview**
     st.subheader("🌎 All Topics Overview")
 
-    # Ensure topic counts are calculated properly
     if "topic_name" in filtered_df.columns:
         topic_counts = filtered_df["topic_name"].value_counts().reset_index()
         topic_counts.columns = ["topic_name", "count"]
 
+        # Apply cleaning function to topic names
+        topic_counts['topic_name'] = topic_counts['topic_name'].apply(clean_topic_name)
+
         if not topic_counts.empty:
-            fig = px.treemap(topic_counts, path=["topic_name"], values="count", title="📊 Topic Distribution")
+            fig = px.treemap(
+                topic_counts, 
+                path=["topic_name"], 
+                values="count", 
+                title="📊 Topic Distribution",
+                labels={'topic_name': 'Topic Name', 'count': 'Count'}  # Adding axis labels
+            )
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.warning("Not enough data for topic visualization.")
     else:
         st.warning("No topic data available.")
 
-
-# Content Explorer
+# Content Explorer 
 with tab4:
-    st.subheader("Explore Posts")
+    st.subheader("#️⃣ Explore Post")
         
     # Sort by options
     sort_by = st.selectbox("Sort by",

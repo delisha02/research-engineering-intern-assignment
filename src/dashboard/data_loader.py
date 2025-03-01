@@ -20,3 +20,8 @@ def load_data():
 def load_topic_model():
     with open("models/topic_model/topic_model.pkl", "rb") as f:
         return pickle.load(f)
+    
+# Function to clean topic names (remove duplicates & sort words)
+def clean_topic_name(topic_name):
+    words = set(topic_name.replace("&", " ").split())  # Replace '&' with space, split words
+    return ",".join(sorted(words))  # Sort and join unique words
