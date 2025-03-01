@@ -53,22 +53,30 @@ git clone https://github.com/your-username/research-engineering-intern-assignmen
 cd research-engineering-intern-assignment
 ```
 
-### **2️⃣ Install Dependencies**  
+### **2️⃣ Create Virtual Environment and  Install Dependencies**
 ```bash
+#Create Virtual Environment
+python -m venv venv
+# Activate the virtual environment:
+# On macOS and Linux:
+source myenv/bin/activate
+# On Windows
+venv\Scripts\activate
+#Install dependencies
 pip install -r requirements.txt
-```
-Ensure the following Python libraries are installed:  
-- **Streamlit** (for dashboard)  
-- **Pandas** (for data processing)  
-- **Plotly** (for interactive charts)  
-- **NLTK** (for sentiment analysis)  
-- **BERTopic** (for topic modeling)  
+``` 
 
-### **3️⃣ Download NLTK Data (For Sentiment Analysis)**  
+### **3️⃣ Running the Scripts:**
 ```python
-import nltk
-nltk.download('vader_lexicon')
-nltk.download('punkt')
+# Data cleaning 
+python src/preprocessing/clean_data.py
+
+# Topic modeling
+python src/dashboard/models/topic_modeling.py
+
+# Sentiment analysis
+python src/dashboard/models/sentiment_analysis.py
+
 ```
 
 ### **4️⃣ Run the Dashboard**  
