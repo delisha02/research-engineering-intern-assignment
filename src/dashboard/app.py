@@ -91,10 +91,20 @@ with tab1:
 with tab2:
     st.subheader("Top 15 Subreddits by Post Count")
     subreddit_counts = filtered_df['subreddit'].value_counts().reset_index()
-    fig = px.bar(subreddit_counts.head(15), x='count', y='subreddit', orientation='h')
+    subreddit_counts.columns = ['subreddit', 'count']
+
+    # Pie chart for post count by subreddit
+    fig = px.pie(
+        subreddit_counts.head(15),
+        names='subreddit',
+        values='count',
+        title="Distribution of Posts by Subreddit",
+        hole=0.4,  # Creates a donut chart effect
+        color_discrete_sequence=px.colors.qualitative.Set3
+    )
     st.plotly_chart(fig, use_container_width=True)
-    
-    # Engagement by subreddit
+
+    # Engagement by subreddit (Using Pie Chart)
     st.subheader("Engagement by Community")    
     engagement_by_sub = filtered_df.groupby('subreddit').agg({
             'score': 'mean',
@@ -104,10 +114,18 @@ with tab2:
         }).reset_index()
         
     engagement_by_sub = engagement_by_sub.sort_values('engagement_index', ascending=False).head(10)
-        
-    fig = px.bar(engagement_by_sub,x='engagement_index', y='subreddit',title="Top 10 Subreddits by Engagement",labels={"engagement_index": "Engagement Index", "subreddit": "Subreddit"},orientation='h')
-    fig.update_layout(height=500)
+
+    # Pie chart for engagement index by subreddit
+    fig = px.pie(
+        engagement_by_sub,
+        names='subreddit',
+        values='engagement_index',
+        title="Top 10 Subreddits by Engagement",
+        hole=0.4,
+        color_discrete_sequence=px.colors.qualitative.Set2
+    )
     st.plotly_chart(fig, use_container_width=True)
+
 # Topic Analysis
 with tab3:
     st.subheader("Top 10 Topics")
