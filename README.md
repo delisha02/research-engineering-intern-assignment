@@ -49,7 +49,7 @@ This project is an interactive dashboard that visualizes political discussions o
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/research-engineering-intern-assignment.git
+git clone https://github.com/delisha02/research-engineering-intern-assignment.git
 cd research-engineering-intern-assignment
 ```
 
