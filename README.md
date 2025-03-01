@@ -26,21 +26,37 @@ This project is an interactive dashboard that visualizes political discussions o
 │   │   ├── data_loader.py        # Loads Reddit dataset & topic model  
 │   │   ├── 📂 static/             # Static assets (CSS, images, etc.)
 │   │   │   ├── styles.css         # Custom CSS for UI enhancements  
-│   │   ├── 📂 models/             # Machine learning models  
-│   │   │   ├── sentiment_analysis.py # Sentiment scoring  
-│   │   │   ├── topic_modeling.py  # BERTopic topic modeling  
+│   │   ├── 📂 models/             # Machine learning models for dashboard  
+│   │   │   ├── sentiment_analysis.py  # Sentiment scoring  
+│   │   │   ├── topic_modeling.py      # Topic modeling with BERTopic  
 │   │
 │   ├── 📂 preprocessing/
 │   │   ├── clean_data.py          # Data cleaning and preprocessing  
 │
+├── 📂 models/                     # Folder for trained models  
+│   ├── 📂 topic_model/             # Trained BERTopic models and data  
+│   │   ├── topic_model.pkl        # Trained BERTopic model  
+│   │   ├── topics.npy             # Topic assignments per post  
+│   │   ├── probs.npy              # Probability scores of topics  
+│   │   ├── topic_labels.pkl       # Topic names generated from BERTopic  
+│   │   ├── topic_words.pkl        # Top words per topic  
+│   │   ├── topic_counts.csv       # Number of posts per topic  
+│   │   ├── topic_info.csv         # Topic metadata for visualization  
+│   │
+│   ├── 📂 sentiment_analysis/      # Trained sentiment analysis models and data  
+│   │   ├── topic_sentiment.csv         # Sentiment data per topic  
+│   │   ├── topic_sentiment_pivot.csv   # Pivot table of topics vs sentiment  
+│   │   ├── topic_sentiment_pivot_pct.csv  # Percentage-based topic sentiment  
+│   │   ├── sentiment_stats.pkl          # Sentiment statistics  
+│   │   ├── sentiment_keywords.pkl       # Keywords strongly associated with sentiment  
+│
 ├── 📂 data/                       # Folder for datasets  
 │   ├── 📂 raw/                    # Unprocessed Reddit data  
-│   ├── 📂 processed/               # Cleaned and analyzed data  
-│
-├── 📂 models/                      # Trained topic & sentiment models  
+│   ├── 📂 processed/              # Cleaned and analyzed data  
 │
 ├── requirements.txt                # Dependencies  
 ├── README.md                       # Documentation  
+
 ```
 
 ---
