@@ -1,0 +1,530 @@
+topic,topic_name,very negative,negative,neutral,positive,very positive
+-1,Air & Dc & Weeks,0,0,0,0,0
+-1,Anarchist & Amp & Propaganda,0,0,0,0,0
+-1,Canada & Tariffs & Tariff,0,0,0,0,0
+-1,Chinese & China & Car,0,0,0,0,0
+-1,Doge & Musk & Pentagon,0,0,0,0,0
+-1,Education & Schools & School,0,0,0,0,0
+-1,Elections & Voter & Truth,0,0,0,0,0
+-1,Fascism & Fascist & Class,0,0,0,0,0
+-1,Gaza & Israel & Sanctions,0,0,0,0,0
+-1,Harris & Kamala & Kamala Harris,0,0,0,0,0
+-1,Health & Pandemic & Cuts,0,0,0,0,0
+-1,Joe Biden & Joe & President Biden,0,0,0,0,0
+-1,Latin & Latin America & Immigration,0,0,0,0,0
+-1,Miscellaneous,71,185,248,187,65
+-1,Musk & Elon Musk & Elon,0,0,0,0,0
+-1,Nuclear & Weapons & Fired,0,0,0,0,0
+-1,Peertube & Org & Org Peertube,0,0,0,0,0
+-1,Protest & Protests & Rally,0,0,0,0,0
+-1,Senate & Nominee & Fbi,0,0,0,0,0
+-1,Sex & Women & Transgender,0,0,0,0,0
+-1,Tax & Cuts & Spending,0,0,0,0,0
+-1,Ukraine & Russia & Putin,0,0,0,0,0
+-1,Vote & Senate & Governor,0,0,0,0,0
+0,Air & Dc & Weeks,0,0,0,0,0
+0,Anarchist & Amp & Propaganda,0,0,0,0,0
+0,Canada & Tariffs & Tariff,0,0,0,0,0
+0,Chinese & China & Car,0,0,0,0,0
+0,Doge & Musk & Pentagon,0,0,0,0,0
+0,Education & Schools & School,0,0,0,0,0
+0,Elections & Voter & Truth,0,0,0,0,0
+0,Fascism & Fascist & Class,0,0,0,0,0
+0,Gaza & Israel & Sanctions,0,0,0,0,0
+0,Harris & Kamala & Kamala Harris,0,0,0,0,0
+0,Health & Pandemic & Cuts,0,0,0,0,0
+0,Joe Biden & Joe & President Biden,0,0,0,0,0
+0,Latin & Latin America & Immigration,0,0,0,0,0
+0,Miscellaneous,0,0,0,0,0
+0,Musk & Elon Musk & Elon,0,0,0,0,0
+0,Nuclear & Weapons & Fired,0,0,0,0,0
+0,Peertube & Org & Org Peertube,0,0,0,0,0
+0,Protest & Protests & Rally,0,0,0,0,0
+0,Senate & Nominee & Fbi,0,0,0,0,0
+0,Sex & Women & Transgender,0,0,0,0,0
+0,Tax & Cuts & Spending,82,200,277,174,46
+0,Ukraine & Russia & Putin,0,0,0,0,0
+0,Vote & Senate & Governor,0,0,0,0,0
+1,Air & Dc & Weeks,0,0,0,0,0
+1,Anarchist & Amp & Propaganda,28,52,24,63,21
+1,Canada & Tariffs & Tariff,0,0,0,0,0
+1,Chinese & China & Car,0,0,0,0,0
+1,Doge & Musk & Pentagon,0,0,0,0,0
+1,Education & Schools & School,0,0,0,0,0
+1,Elections & Voter & Truth,0,0,0,0,0
+1,Fascism & Fascist & Class,0,0,0,0,0
+1,Gaza & Israel & Sanctions,0,0,0,0,0
+1,Harris & Kamala & Kamala Harris,0,0,0,0,0
+1,Health & Pandemic & Cuts,0,0,0,0,0
+1,Joe Biden & Joe & President Biden,0,0,0,0,0
+1,Latin & Latin America & Immigration,0,0,0,0,0
+1,Miscellaneous,0,0,0,0,0
+1,Musk & Elon Musk & Elon,0,0,0,0,0
+1,Nuclear & Weapons & Fired,0,0,0,0,0
+1,Peertube & Org & Org Peertube,0,0,0,0,0
+1,Protest & Protests & Rally,0,0,0,0,0
+1,Senate & Nominee & Fbi,0,0,0,0,0
+1,Sex & Women & Transgender,0,0,0,0,0
+1,Tax & Cuts & Spending,0,0,0,0,0
+1,Ukraine & Russia & Putin,0,0,0,0,0
+1,Vote & Senate & Governor,0,0,0,0,0
+2,Air & Dc & Weeks,0,0,0,0,0
+2,Anarchist & Amp & Propaganda,0,0,0,0,0
+2,Canada & Tariffs & Tariff,0,0,0,0,0
+2,Chinese & China & Car,0,0,0,0,0
+2,Doge & Musk & Pentagon,0,0,0,0,0
+2,Education & Schools & School,0,0,0,0,0
+2,Elections & Voter & Truth,0,0,0,0,0
+2,Fascism & Fascist & Class,0,0,0,0,0
+2,Gaza & Israel & Sanctions,0,0,0,0,0
+2,Harris & Kamala & Kamala Harris,0,0,0,0,0
+2,Health & Pandemic & Cuts,0,0,0,0,0
+2,Joe Biden & Joe & President Biden,0,0,0,0,0
+2,Latin & Latin America & Immigration,0,0,0,0,0
+2,Miscellaneous,0,0,0,0,0
+2,Musk & Elon Musk & Elon,0,0,0,0,0
+2,Nuclear & Weapons & Fired,0,0,0,0,0
+2,Peertube & Org & Org Peertube,0,0,0,0,0
+2,Protest & Protests & Rally,0,0,0,0,0
+2,Senate & Nominee & Fbi,0,0,0,0,0
+2,Sex & Women & Transgender,0,0,0,0,0
+2,Tax & Cuts & Spending,0,0,0,0,0
+2,Ukraine & Russia & Putin,17,36,48,34,8
+2,Vote & Senate & Governor,0,0,0,0,0
+3,Air & Dc & Weeks,0,0,0,0,0
+3,Anarchist & Amp & Propaganda,0,0,0,0,0
+3,Canada & Tariffs & Tariff,0,0,0,0,0
+3,Chinese & China & Car,0,0,0,0,0
+3,Doge & Musk & Pentagon,0,0,0,0,0
+3,Education & Schools & School,0,0,0,0,0
+3,Elections & Voter & Truth,0,0,0,0,0
+3,Fascism & Fascist & Class,0,0,0,0,0
+3,Gaza & Israel & Sanctions,0,0,0,0,0
+3,Harris & Kamala & Kamala Harris,0,0,0,0,0
+3,Health & Pandemic & Cuts,0,0,0,0,0
+3,Joe Biden & Joe & President Biden,0,0,0,0,0
+3,Latin & Latin America & Immigration,0,0,0,0,0
+3,Miscellaneous,0,0,0,0,0
+3,Musk & Elon Musk & Elon,0,0,0,0,0
+3,Nuclear & Weapons & Fired,0,0,0,0,0
+3,Peertube & Org & Org Peertube,0,0,0,0,0
+3,Protest & Protests & Rally,0,0,0,0,0
+3,Senate & Nominee & Fbi,0,0,0,0,0
+3,Sex & Women & Transgender,0,0,0,0,0
+3,Tax & Cuts & Spending,0,0,0,0,0
+3,Ukraine & Russia & Putin,0,0,0,0,0
+3,Vote & Senate & Governor,8,33,43,35,12
+4,Air & Dc & Weeks,0,0,0,0,0
+4,Anarchist & Amp & Propaganda,0,0,0,0,0
+4,Canada & Tariffs & Tariff,0,0,0,0,0
+4,Chinese & China & Car,0,0,0,0,0
+4,Doge & Musk & Pentagon,0,0,0,0,0
+4,Education & Schools & School,0,0,0,0,0
+4,Elections & Voter & Truth,0,0,0,0,0
+4,Fascism & Fascist & Class,0,0,0,0,0
+4,Gaza & Israel & Sanctions,0,0,0,0,0
+4,Harris & Kamala & Kamala Harris,0,0,0,0,0
+4,Health & Pandemic & Cuts,0,0,0,0,0
+4,Joe Biden & Joe & President Biden,0,0,0,0,0
+4,Latin & Latin America & Immigration,29,46,35,12,3
+4,Miscellaneous,0,0,0,0,0
+4,Musk & Elon Musk & Elon,0,0,0,0,0
+4,Nuclear & Weapons & Fired,0,0,0,0,0
+4,Peertube & Org & Org Peertube,0,0,0,0,0
+4,Protest & Protests & Rally,0,0,0,0,0
+4,Senate & Nominee & Fbi,0,0,0,0,0
+4,Sex & Women & Transgender,0,0,0,0,0
+4,Tax & Cuts & Spending,0,0,0,0,0
+4,Ukraine & Russia & Putin,0,0,0,0,0
+4,Vote & Senate & Governor,0,0,0,0,0
+5,Air & Dc & Weeks,0,0,0,0,0
+5,Anarchist & Amp & Propaganda,0,0,0,0,0
+5,Canada & Tariffs & Tariff,0,0,0,0,0
+5,Chinese & China & Car,0,0,0,0,0
+5,Doge & Musk & Pentagon,0,0,0,0,0
+5,Education & Schools & School,0,0,0,0,0
+5,Elections & Voter & Truth,0,0,0,0,0
+5,Fascism & Fascist & Class,0,0,0,0,0
+5,Gaza & Israel & Sanctions,0,0,0,0,0
+5,Harris & Kamala & Kamala Harris,0,0,0,0,0
+5,Health & Pandemic & Cuts,0,0,0,0,0
+5,Joe Biden & Joe & President Biden,0,0,0,0,0
+5,Latin & Latin America & Immigration,0,0,0,0,0
+5,Miscellaneous,0,0,0,0,0
+5,Musk & Elon Musk & Elon,0,0,0,0,0
+5,Nuclear & Weapons & Fired,0,0,0,0,0
+5,Peertube & Org & Org Peertube,10,22,25,28,23
+5,Protest & Protests & Rally,0,0,0,0,0
+5,Senate & Nominee & Fbi,0,0,0,0,0
+5,Sex & Women & Transgender,0,0,0,0,0
+5,Tax & Cuts & Spending,0,0,0,0,0
+5,Ukraine & Russia & Putin,0,0,0,0,0
+5,Vote & Senate & Governor,0,0,0,0,0
+6,Air & Dc & Weeks,0,0,0,0,0
+6,Anarchist & Amp & Propaganda,0,0,0,0,0
+6,Canada & Tariffs & Tariff,0,0,0,0,0
+6,Chinese & China & Car,0,0,0,0,0
+6,Doge & Musk & Pentagon,0,0,0,0,0
+6,Education & Schools & School,0,0,0,0,0
+6,Elections & Voter & Truth,0,0,0,0,0
+6,Fascism & Fascist & Class,0,0,0,0,0
+6,Gaza & Israel & Sanctions,0,0,0,0,0
+6,Harris & Kamala & Kamala Harris,0,0,0,0,0
+6,Health & Pandemic & Cuts,0,0,0,0,0
+6,Joe Biden & Joe & President Biden,0,0,0,0,0
+6,Latin & Latin America & Immigration,0,0,0,0,0
+6,Miscellaneous,0,0,0,0,0
+6,Musk & Elon Musk & Elon,17,32,27,16,5
+6,Nuclear & Weapons & Fired,0,0,0,0,0
+6,Peertube & Org & Org Peertube,0,0,0,0,0
+6,Protest & Protests & Rally,0,0,0,0,0
+6,Senate & Nominee & Fbi,0,0,0,0,0
+6,Sex & Women & Transgender,0,0,0,0,0
+6,Tax & Cuts & Spending,0,0,0,0,0
+6,Ukraine & Russia & Putin,0,0,0,0,0
+6,Vote & Senate & Governor,0,0,0,0,0
+7,Air & Dc & Weeks,0,0,0,0,0
+7,Anarchist & Amp & Propaganda,0,0,0,0,0
+7,Canada & Tariffs & Tariff,9,27,30,21,3
+7,Chinese & China & Car,0,0,0,0,0
+7,Doge & Musk & Pentagon,0,0,0,0,0
+7,Education & Schools & School,0,0,0,0,0
+7,Elections & Voter & Truth,0,0,0,0,0
+7,Fascism & Fascist & Class,0,0,0,0,0
+7,Gaza & Israel & Sanctions,0,0,0,0,0
+7,Harris & Kamala & Kamala Harris,0,0,0,0,0
+7,Health & Pandemic & Cuts,0,0,0,0,0
+7,Joe Biden & Joe & President Biden,0,0,0,0,0
+7,Latin & Latin America & Immigration,0,0,0,0,0
+7,Miscellaneous,0,0,0,0,0
+7,Musk & Elon Musk & Elon,0,0,0,0,0
+7,Nuclear & Weapons & Fired,0,0,0,0,0
+7,Peertube & Org & Org Peertube,0,0,0,0,0
+7,Protest & Protests & Rally,0,0,0,0,0
+7,Senate & Nominee & Fbi,0,0,0,0,0
+7,Sex & Women & Transgender,0,0,0,0,0
+7,Tax & Cuts & Spending,0,0,0,0,0
+7,Ukraine & Russia & Putin,0,0,0,0,0
+7,Vote & Senate & Governor,0,0,0,0,0
+8,Air & Dc & Weeks,0,0,0,0,0
+8,Anarchist & Amp & Propaganda,0,0,0,0,0
+8,Canada & Tariffs & Tariff,0,0,0,0,0
+8,Chinese & China & Car,0,0,0,0,0
+8,Doge & Musk & Pentagon,0,0,0,0,0
+8,Education & Schools & School,0,0,0,0,0
+8,Elections & Voter & Truth,0,0,0,0,0
+8,Fascism & Fascist & Class,0,0,0,0,0
+8,Gaza & Israel & Sanctions,7,23,21,11,3
+8,Harris & Kamala & Kamala Harris,0,0,0,0,0
+8,Health & Pandemic & Cuts,0,0,0,0,0
+8,Joe Biden & Joe & President Biden,0,0,0,0,0
+8,Latin & Latin America & Immigration,0,0,0,0,0
+8,Miscellaneous,0,0,0,0,0
+8,Musk & Elon Musk & Elon,0,0,0,0,0
+8,Nuclear & Weapons & Fired,0,0,0,0,0
+8,Peertube & Org & Org Peertube,0,0,0,0,0
+8,Protest & Protests & Rally,0,0,0,0,0
+8,Senate & Nominee & Fbi,0,0,0,0,0
+8,Sex & Women & Transgender,0,0,0,0,0
+8,Tax & Cuts & Spending,0,0,0,0,0
+8,Ukraine & Russia & Putin,0,0,0,0,0
+8,Vote & Senate & Governor,0,0,0,0,0
+9,Air & Dc & Weeks,0,0,0,0,0
+9,Anarchist & Amp & Propaganda,0,0,0,0,0
+9,Canada & Tariffs & Tariff,0,0,0,0,0
+9,Chinese & China & Car,0,0,0,0,0
+9,Doge & Musk & Pentagon,0,0,0,0,0
+9,Education & Schools & School,0,0,0,0,0
+9,Elections & Voter & Truth,0,0,0,0,0
+9,Fascism & Fascist & Class,0,0,0,0,0
+9,Gaza & Israel & Sanctions,0,0,0,0,0
+9,Harris & Kamala & Kamala Harris,0,0,0,0,0
+9,Health & Pandemic & Cuts,0,0,0,0,0
+9,Joe Biden & Joe & President Biden,2,19,19,11,6
+9,Latin & Latin America & Immigration,0,0,0,0,0
+9,Miscellaneous,0,0,0,0,0
+9,Musk & Elon Musk & Elon,0,0,0,0,0
+9,Nuclear & Weapons & Fired,0,0,0,0,0
+9,Peertube & Org & Org Peertube,0,0,0,0,0
+9,Protest & Protests & Rally,0,0,0,0,0
+9,Senate & Nominee & Fbi,0,0,0,0,0
+9,Sex & Women & Transgender,0,0,0,0,0
+9,Tax & Cuts & Spending,0,0,0,0,0
+9,Ukraine & Russia & Putin,0,0,0,0,0
+9,Vote & Senate & Governor,0,0,0,0,0
+10,Air & Dc & Weeks,0,0,0,0,0
+10,Anarchist & Amp & Propaganda,0,0,0,0,0
+10,Canada & Tariffs & Tariff,0,0,0,0,0
+10,Chinese & China & Car,0,0,0,0,0
+10,Doge & Musk & Pentagon,0,0,0,0,0
+10,Education & Schools & School,0,0,0,0,0
+10,Elections & Voter & Truth,0,0,0,0,0
+10,Fascism & Fascist & Class,0,0,0,0,0
+10,Gaza & Israel & Sanctions,0,0,0,0,0
+10,Harris & Kamala & Kamala Harris,0,0,0,0,0
+10,Health & Pandemic & Cuts,0,0,0,0,0
+10,Joe Biden & Joe & President Biden,0,0,0,0,0
+10,Latin & Latin America & Immigration,0,0,0,0,0
+10,Miscellaneous,0,0,0,0,0
+10,Musk & Elon Musk & Elon,0,0,0,0,0
+10,Nuclear & Weapons & Fired,0,0,0,0,0
+10,Peertube & Org & Org Peertube,0,0,0,0,0
+10,Protest & Protests & Rally,0,0,0,0,0
+10,Senate & Nominee & Fbi,0,0,0,0,0
+10,Sex & Women & Transgender,5,15,25,7,1
+10,Tax & Cuts & Spending,0,0,0,0,0
+10,Ukraine & Russia & Putin,0,0,0,0,0
+10,Vote & Senate & Governor,0,0,0,0,0
+11,Air & Dc & Weeks,0,0,0,0,0
+11,Anarchist & Amp & Propaganda,0,0,0,0,0
+11,Canada & Tariffs & Tariff,0,0,0,0,0
+11,Chinese & China & Car,0,0,0,0,0
+11,Doge & Musk & Pentagon,0,0,0,0,0
+11,Education & Schools & School,0,0,0,0,0
+11,Elections & Voter & Truth,0,0,0,0,0
+11,Fascism & Fascist & Class,0,0,0,0,0
+11,Gaza & Israel & Sanctions,0,0,0,0,0
+11,Harris & Kamala & Kamala Harris,0,0,0,0,0
+11,Health & Pandemic & Cuts,0,0,0,0,0
+11,Joe Biden & Joe & President Biden,0,0,0,0,0
+11,Latin & Latin America & Immigration,0,0,0,0,0
+11,Miscellaneous,0,0,0,0,0
+11,Musk & Elon Musk & Elon,0,0,0,0,0
+11,Nuclear & Weapons & Fired,0,0,0,0,0
+11,Peertube & Org & Org Peertube,0,0,0,0,0
+11,Protest & Protests & Rally,9,19,17,5,3
+11,Senate & Nominee & Fbi,0,0,0,0,0
+11,Sex & Women & Transgender,0,0,0,0,0
+11,Tax & Cuts & Spending,0,0,0,0,0
+11,Ukraine & Russia & Putin,0,0,0,0,0
+11,Vote & Senate & Governor,0,0,0,0,0
+12,Air & Dc & Weeks,0,0,0,0,0
+12,Anarchist & Amp & Propaganda,0,0,0,0,0
+12,Canada & Tariffs & Tariff,0,0,0,0,0
+12,Chinese & China & Car,0,0,0,0,0
+12,Doge & Musk & Pentagon,0,0,0,0,0
+12,Education & Schools & School,0,0,0,0,0
+12,Elections & Voter & Truth,0,0,0,0,0
+12,Fascism & Fascist & Class,0,0,0,0,0
+12,Gaza & Israel & Sanctions,0,0,0,0,0
+12,Harris & Kamala & Kamala Harris,3,11,25,7,6
+12,Health & Pandemic & Cuts,0,0,0,0,0
+12,Joe Biden & Joe & President Biden,0,0,0,0,0
+12,Latin & Latin America & Immigration,0,0,0,0,0
+12,Miscellaneous,0,0,0,0,0
+12,Musk & Elon Musk & Elon,0,0,0,0,0
+12,Nuclear & Weapons & Fired,0,0,0,0,0
+12,Peertube & Org & Org Peertube,0,0,0,0,0
+12,Protest & Protests & Rally,0,0,0,0,0
+12,Senate & Nominee & Fbi,0,0,0,0,0
+12,Sex & Women & Transgender,0,0,0,0,0
+12,Tax & Cuts & Spending,0,0,0,0,0
+12,Ukraine & Russia & Putin,0,0,0,0,0
+12,Vote & Senate & Governor,0,0,0,0,0
+13,Air & Dc & Weeks,0,0,0,0,0
+13,Anarchist & Amp & Propaganda,0,0,0,0,0
+13,Canada & Tariffs & Tariff,0,0,0,0,0
+13,Chinese & China & Car,0,0,0,0,0
+13,Doge & Musk & Pentagon,5,16,17,11,3
+13,Education & Schools & School,0,0,0,0,0
+13,Elections & Voter & Truth,0,0,0,0,0
+13,Fascism & Fascist & Class,0,0,0,0,0
+13,Gaza & Israel & Sanctions,0,0,0,0,0
+13,Harris & Kamala & Kamala Harris,0,0,0,0,0
+13,Health & Pandemic & Cuts,0,0,0,0,0
+13,Joe Biden & Joe & President Biden,0,0,0,0,0
+13,Latin & Latin America & Immigration,0,0,0,0,0
+13,Miscellaneous,0,0,0,0,0
+13,Musk & Elon Musk & Elon,0,0,0,0,0
+13,Nuclear & Weapons & Fired,0,0,0,0,0
+13,Peertube & Org & Org Peertube,0,0,0,0,0
+13,Protest & Protests & Rally,0,0,0,0,0
+13,Senate & Nominee & Fbi,0,0,0,0,0
+13,Sex & Women & Transgender,0,0,0,0,0
+13,Tax & Cuts & Spending,0,0,0,0,0
+13,Ukraine & Russia & Putin,0,0,0,0,0
+13,Vote & Senate & Governor,0,0,0,0,0
+14,Air & Dc & Weeks,20,10,5,7,0
+14,Anarchist & Amp & Propaganda,0,0,0,0,0
+14,Canada & Tariffs & Tariff,0,0,0,0,0
+14,Chinese & China & Car,0,0,0,0,0
+14,Doge & Musk & Pentagon,0,0,0,0,0
+14,Education & Schools & School,0,0,0,0,0
+14,Elections & Voter & Truth,0,0,0,0,0
+14,Fascism & Fascist & Class,0,0,0,0,0
+14,Gaza & Israel & Sanctions,0,0,0,0,0
+14,Harris & Kamala & Kamala Harris,0,0,0,0,0
+14,Health & Pandemic & Cuts,0,0,0,0,0
+14,Joe Biden & Joe & President Biden,0,0,0,0,0
+14,Latin & Latin America & Immigration,0,0,0,0,0
+14,Miscellaneous,0,0,0,0,0
+14,Musk & Elon Musk & Elon,0,0,0,0,0
+14,Nuclear & Weapons & Fired,0,0,0,0,0
+14,Peertube & Org & Org Peertube,0,0,0,0,0
+14,Protest & Protests & Rally,0,0,0,0,0
+14,Senate & Nominee & Fbi,0,0,0,0,0
+14,Sex & Women & Transgender,0,0,0,0,0
+14,Tax & Cuts & Spending,0,0,0,0,0
+14,Ukraine & Russia & Putin,0,0,0,0,0
+14,Vote & Senate & Governor,0,0,0,0,0
+15,Air & Dc & Weeks,0,0,0,0,0
+15,Anarchist & Amp & Propaganda,0,0,0,0,0
+15,Canada & Tariffs & Tariff,0,0,0,0,0
+15,Chinese & China & Car,0,0,0,0,0
+15,Doge & Musk & Pentagon,0,0,0,0,0
+15,Education & Schools & School,0,0,0,0,0
+15,Elections & Voter & Truth,0,0,0,0,0
+15,Fascism & Fascist & Class,0,0,0,0,0
+15,Gaza & Israel & Sanctions,0,0,0,0,0
+15,Harris & Kamala & Kamala Harris,0,0,0,0,0
+15,Health & Pandemic & Cuts,16,13,8,3,1
+15,Joe Biden & Joe & President Biden,0,0,0,0,0
+15,Latin & Latin America & Immigration,0,0,0,0,0
+15,Miscellaneous,0,0,0,0,0
+15,Musk & Elon Musk & Elon,0,0,0,0,0
+15,Nuclear & Weapons & Fired,0,0,0,0,0
+15,Peertube & Org & Org Peertube,0,0,0,0,0
+15,Protest & Protests & Rally,0,0,0,0,0
+15,Senate & Nominee & Fbi,0,0,0,0,0
+15,Sex & Women & Transgender,0,0,0,0,0
+15,Tax & Cuts & Spending,0,0,0,0,0
+15,Ukraine & Russia & Putin,0,0,0,0,0
+15,Vote & Senate & Governor,0,0,0,0,0
+16,Air & Dc & Weeks,0,0,0,0,0
+16,Anarchist & Amp & Propaganda,0,0,0,0,0
+16,Canada & Tariffs & Tariff,0,0,0,0,0
+16,Chinese & China & Car,0,0,0,0,0
+16,Doge & Musk & Pentagon,0,0,0,0,0
+16,Education & Schools & School,0,0,0,0,0
+16,Elections & Voter & Truth,5,10,9,9,2
+16,Fascism & Fascist & Class,0,0,0,0,0
+16,Gaza & Israel & Sanctions,0,0,0,0,0
+16,Harris & Kamala & Kamala Harris,0,0,0,0,0
+16,Health & Pandemic & Cuts,0,0,0,0,0
+16,Joe Biden & Joe & President Biden,0,0,0,0,0
+16,Latin & Latin America & Immigration,0,0,0,0,0
+16,Miscellaneous,0,0,0,0,0
+16,Musk & Elon Musk & Elon,0,0,0,0,0
+16,Nuclear & Weapons & Fired,0,0,0,0,0
+16,Peertube & Org & Org Peertube,0,0,0,0,0
+16,Protest & Protests & Rally,0,0,0,0,0
+16,Senate & Nominee & Fbi,0,0,0,0,0
+16,Sex & Women & Transgender,0,0,0,0,0
+16,Tax & Cuts & Spending,0,0,0,0,0
+16,Ukraine & Russia & Putin,0,0,0,0,0
+16,Vote & Senate & Governor,0,0,0,0,0
+17,Air & Dc & Weeks,0,0,0,0,0
+17,Anarchist & Amp & Propaganda,0,0,0,0,0
+17,Canada & Tariffs & Tariff,0,0,0,0,0
+17,Chinese & China & Car,0,0,0,0,0
+17,Doge & Musk & Pentagon,0,0,0,0,0
+17,Education & Schools & School,2,9,15,5,0
+17,Elections & Voter & Truth,0,0,0,0,0
+17,Fascism & Fascist & Class,0,0,0,0,0
+17,Gaza & Israel & Sanctions,0,0,0,0,0
+17,Harris & Kamala & Kamala Harris,0,0,0,0,0
+17,Health & Pandemic & Cuts,0,0,0,0,0
+17,Joe Biden & Joe & President Biden,0,0,0,0,0
+17,Latin & Latin America & Immigration,0,0,0,0,0
+17,Miscellaneous,0,0,0,0,0
+17,Musk & Elon Musk & Elon,0,0,0,0,0
+17,Nuclear & Weapons & Fired,0,0,0,0,0
+17,Peertube & Org & Org Peertube,0,0,0,0,0
+17,Protest & Protests & Rally,0,0,0,0,0
+17,Senate & Nominee & Fbi,0,0,0,0,0
+17,Sex & Women & Transgender,0,0,0,0,0
+17,Tax & Cuts & Spending,0,0,0,0,0
+17,Ukraine & Russia & Putin,0,0,0,0,0
+17,Vote & Senate & Governor,0,0,0,0,0
+18,Air & Dc & Weeks,0,0,0,0,0
+18,Anarchist & Amp & Propaganda,0,0,0,0,0
+18,Canada & Tariffs & Tariff,0,0,0,0,0
+18,Chinese & China & Car,0,0,0,0,0
+18,Doge & Musk & Pentagon,0,0,0,0,0
+18,Education & Schools & School,0,0,0,0,0
+18,Elections & Voter & Truth,0,0,0,0,0
+18,Fascism & Fascist & Class,0,0,0,0,0
+18,Gaza & Israel & Sanctions,0,0,0,0,0
+18,Harris & Kamala & Kamala Harris,0,0,0,0,0
+18,Health & Pandemic & Cuts,0,0,0,0,0
+18,Joe Biden & Joe & President Biden,0,0,0,0,0
+18,Latin & Latin America & Immigration,0,0,0,0,0
+18,Miscellaneous,0,0,0,0,0
+18,Musk & Elon Musk & Elon,0,0,0,0,0
+18,Nuclear & Weapons & Fired,0,0,0,0,0
+18,Peertube & Org & Org Peertube,0,0,0,0,0
+18,Protest & Protests & Rally,0,0,0,0,0
+18,Senate & Nominee & Fbi,4,10,6,6,1
+18,Sex & Women & Transgender,0,0,0,0,0
+18,Tax & Cuts & Spending,0,0,0,0,0
+18,Ukraine & Russia & Putin,0,0,0,0,0
+18,Vote & Senate & Governor,0,0,0,0,0
+19,Air & Dc & Weeks,0,0,0,0,0
+19,Anarchist & Amp & Propaganda,0,0,0,0,0
+19,Canada & Tariffs & Tariff,0,0,0,0,0
+19,Chinese & China & Car,0,0,0,0,0
+19,Doge & Musk & Pentagon,0,0,0,0,0
+19,Education & Schools & School,0,0,0,0,0
+19,Elections & Voter & Truth,0,0,0,0,0
+19,Fascism & Fascist & Class,4,9,5,5,2
+19,Gaza & Israel & Sanctions,0,0,0,0,0
+19,Harris & Kamala & Kamala Harris,0,0,0,0,0
+19,Health & Pandemic & Cuts,0,0,0,0,0
+19,Joe Biden & Joe & President Biden,0,0,0,0,0
+19,Latin & Latin America & Immigration,0,0,0,0,0
+19,Miscellaneous,0,0,0,0,0
+19,Musk & Elon Musk & Elon,0,0,0,0,0
+19,Nuclear & Weapons & Fired,0,0,0,0,0
+19,Peertube & Org & Org Peertube,0,0,0,0,0
+19,Protest & Protests & Rally,0,0,0,0,0
+19,Senate & Nominee & Fbi,0,0,0,0,0
+19,Sex & Women & Transgender,0,0,0,0,0
+19,Tax & Cuts & Spending,0,0,0,0,0
+19,Ukraine & Russia & Putin,0,0,0,0,0
+19,Vote & Senate & Governor,0,0,0,0,0
+20,Air & Dc & Weeks,0,0,0,0,0
+20,Anarchist & Amp & Propaganda,0,0,0,0,0
+20,Canada & Tariffs & Tariff,0,0,0,0,0
+20,Chinese & China & Car,0,6,10,4,3
+20,Doge & Musk & Pentagon,0,0,0,0,0
+20,Education & Schools & School,0,0,0,0,0
+20,Elections & Voter & Truth,0,0,0,0,0
+20,Fascism & Fascist & Class,0,0,0,0,0
+20,Gaza & Israel & Sanctions,0,0,0,0,0
+20,Harris & Kamala & Kamala Harris,0,0,0,0,0
+20,Health & Pandemic & Cuts,0,0,0,0,0
+20,Joe Biden & Joe & President Biden,0,0,0,0,0
+20,Latin & Latin America & Immigration,0,0,0,0,0
+20,Miscellaneous,0,0,0,0,0
+20,Musk & Elon Musk & Elon,0,0,0,0,0
+20,Nuclear & Weapons & Fired,0,0,0,0,0
+20,Peertube & Org & Org Peertube,0,0,0,0,0
+20,Protest & Protests & Rally,0,0,0,0,0
+20,Senate & Nominee & Fbi,0,0,0,0,0
+20,Sex & Women & Transgender,0,0,0,0,0
+20,Tax & Cuts & Spending,0,0,0,0,0
+20,Ukraine & Russia & Putin,0,0,0,0,0
+20,Vote & Senate & Governor,0,0,0,0,0
+21,Air & Dc & Weeks,0,0,0,0,0
+21,Anarchist & Amp & Propaganda,0,0,0,0,0
+21,Canada & Tariffs & Tariff,0,0,0,0,0
+21,Chinese & China & Car,0,0,0,0,0
+21,Doge & Musk & Pentagon,0,0,0,0,0
+21,Education & Schools & School,0,0,0,0,0
+21,Elections & Voter & Truth,0,0,0,0,0
+21,Fascism & Fascist & Class,0,0,0,0,0
+21,Gaza & Israel & Sanctions,0,0,0,0,0
+21,Harris & Kamala & Kamala Harris,0,0,0,0,0
+21,Health & Pandemic & Cuts,0,0,0,0,0
+21,Joe Biden & Joe & President Biden,0,0,0,0,0
+21,Latin & Latin America & Immigration,0,0,0,0,0
+21,Miscellaneous,0,0,0,0,0
+21,Musk & Elon Musk & Elon,0,0,0,0,0
+21,Nuclear & Weapons & Fired,6,10,6,1,0
+21,Peertube & Org & Org Peertube,0,0,0,0,0
+21,Protest & Protests & Rally,0,0,0,0,0
+21,Senate & Nominee & Fbi,0,0,0,0,0
+21,Sex & Women & Transgender,0,0,0,0,0
+21,Tax & Cuts & Spending,0,0,0,0,0
+21,Ukraine & Russia & Putin,0,0,0,0,0
+21,Vote & Senate & Governor,0,0,0,0,0
