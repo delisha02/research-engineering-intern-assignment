@@ -1,60 +1,14 @@
-/* Dashboard responsive styles */
-.reportview-container .main .block-container {
-    max-width: 100%;
-    padding-top: 2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
+/* Improve UI readability */
+h1 {
+    color: #1f77b4;
+    text-align: center;
 }
 
-/* Make sure tables, charts and plots are responsive */
-.stDataFrame, .stPlot, .stPlotly {
-    width: 100% !important;
-    max-width: 100% !important;
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
 }
 
-/* Scale down content on small screens */
-@media screen and (max-width: 768px) {
-    .st-bx {
-        max-width: 100%;
-        overflow-x: auto;
-    }
-    
-    /* Make sure text wraps on smaller screens */
-    p, .stText, .stMarkdown {
-        word-wrap: break-word;
-        white-space: normal;
-    }
-}
-
-/* Handle horizontal scrolling for content that can't be reduced */
-.overflow-container {
-    width: 100%;
-    overflow-x: auto;
-}
-
-/* Custom styling for post cards */
-.post-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f9f9f9;
-}
-
-/* Additional styling for charts */
-.chart-container {
-    margin: 20px 0;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Styling for metric boxes */
-.metric-container {
-    padding: 10px;
-    border-radius: 5px;
-    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+div[data-testid="stMetricValue"] {
+    font-size: 24px;
+    font-weight: bold;
 }
