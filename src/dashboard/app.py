@@ -7,7 +7,7 @@ from data_loader import load_data, load_topic_model, clean_topic_name
 
 # Page Configuration
 st.set_page_config(
-    page_title="Reddit Misinformation Dashboard",
+    page_title="Reddit Analysis Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
