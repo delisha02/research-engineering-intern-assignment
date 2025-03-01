@@ -156,12 +156,5 @@ streamlit run src/dashboard/app.py
 ---
 
 ## **License**  
-📜 MIT License – 
+📜 MIT License – Delisha Naik's Assignment for SimPPL
 ```
-
----
-
-### **Changes & Improvements**:  
-
-
----
