@@ -215,6 +215,7 @@ with tab4:
     # Handle NaNs before sorting
     filtered_df['sentiment_score'] = filtered_df['sentiment_score'].fillna(0)  # Ensures NaNs do not affect sorting
     
+    # Sorting logic based on selected option
     if sort_by == "Most Recent":
         sorted_df = filtered_df.sort_values('created_utc', ascending=False)
     elif sort_by == "Highest Score(Upvotes)":
@@ -240,16 +241,24 @@ with tab4:
 
             with col2:
                 st.markdown(f"**Subreddit:** r/{row['subreddit']}")
-                st.markdown(f"**Date:** {row['created_utc'].strftime('%Y-%m-%d')}")
+                st.markdown(f"**Date:** {pd.to_datetime(row['created_utc'], unit='s').strftime('%Y-%m-%d')}")
                 st.markdown(f"**Score:** {row['score']}")
                 st.markdown(f"**Comments:** {row['num_comments']}")
 
-                # Handle NaN sentiment values
-                if pd.notna(row['sentiment_score']):
-                    sentiment_color = "green" if row['sentiment_score'] > 0.05 else "red" if row['sentiment_score'] < -0.05 else "gray"
-                    st.markdown(f"**Sentiment:** <span style='color:{sentiment_color}'>{row['sentiment_score']:.2f}</span>", unsafe_allow_html=True)
+                # Handle sentiment score and its visualization
+                sentiment_score = row['sentiment_score']
+                if pd.notna(sentiment_score):
+                    # Adjust color based on sentiment
+                    if sentiment_score > 0.05:
+                        sentiment_color = "green"
+                    elif sentiment_score < -0.05:
+                        sentiment_color = "red"
+                    else:
+                        sentiment_color = "gray"
+                    st.markdown(f"**Sentiment:** <span style='color:{sentiment_color}'>{sentiment_score:.2f}</span>", unsafe_allow_html=True)
                 else:
                     st.markdown("**Sentiment:** No sentiment data available")
+
 
 # Footer
 st.markdown("---")
