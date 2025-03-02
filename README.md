@@ -82,7 +82,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ``` 
 
-### **3️⃣ Running the Scripts (from root directory-research-engineering-intern-assignment):**
+### **3️⃣ Running the Scripts (from root directory: research-engineering-intern-assignment):**
 ```bash
 # Data cleaning 
 python src/preprocessing/clean_data.py
