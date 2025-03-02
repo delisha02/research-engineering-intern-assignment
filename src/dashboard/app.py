@@ -215,6 +215,9 @@ with tab4:
     # Handle NaNs before sorting
     filtered_df['sentiment_score'] = filtered_df['sentiment_score'].fillna(0)  # Ensures NaNs do not affect sorting
     
+    # Initialize sorted_df with the filtered_df before sorting
+    sorted_df = filtered_df.copy()
+
     # Sorting logic based on selected option
     if sort_by == "Most Recent":
         sorted_df = filtered_df.sort_values('created_utc', ascending=False)
@@ -258,7 +261,6 @@ with tab4:
                     st.markdown(f"**Sentiment:** <span style='color:{sentiment_color}'>{sentiment_score:.2f}</span>", unsafe_allow_html=True)
                 else:
                     st.markdown("**Sentiment:** No sentiment data available")
-
 
 # Footer
 st.markdown("---")
