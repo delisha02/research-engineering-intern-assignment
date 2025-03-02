@@ -21,7 +21,7 @@ This project is an interactive dashboard that visualizes political discussions o
 ## **Deployment**
 Deployed using Streamlit Cloud.
 
-[The Political Spectrum: Reddit Communities & Their Political Sentiments](https://delisha02-research-engineering-intern-as-srcdashboardapp-p7ezfb.streamlit.app/)
+[Reddit's Political Spectrum Analysis](https://reddit-political-spectrum.streamlit.app/)
 
 ---
 
