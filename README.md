@@ -176,11 +176,8 @@ Here’s how the dashboard looks:
 🔍 **Named Entity Recognition (NER)** for tracking politicians & policies.  
 
 ---
-
-
-
 ---
 
-## **License**  
-📜 MIT License – Delisha Naik's Assignment for SimPPL
+## **Contributer**  
+Delisha Naik: delisha02
 ```

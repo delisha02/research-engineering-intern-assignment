@@ -109,6 +109,7 @@ with tab2:
             hole=0.4,  # Donut chart effect
             color_discrete_sequence=px.colors.qualitative.Set3
         )
+    
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning("No subreddit data available.")
