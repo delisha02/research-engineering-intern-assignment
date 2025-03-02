@@ -41,10 +41,9 @@ top_subreddits = df['subreddit'].value_counts().head(15).index.tolist()
 selected_subreddits = st.sidebar.multiselect("Select Subreddits", ["All"] + top_subreddits, default=["All"])
 
 if "All" not in selected_subreddits:
-    filtered_df = filtered_df[filtered_df['subreddit'].isin(selected_subreddits)]
-
-
-# Dashboard Title
+    filtered_df = filtered_df[filtered_df['subreddit'].isin(selected_subreddits)] 
+    
+     
 st.title("📊 The Political Spectrum: Reddit Communities & Their Political Sentiments")
 st.markdown("""
     This dashboard visualizes patterns of political discussion on Reddit. 
@@ -56,7 +55,7 @@ st.markdown("""
 st.header("📈 Key Metrics")
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Posts", f"{len(filtered_df):,}")
-col2.metric("Avg. Post Score", f"{filtered_df['score'].mean():.1f}")
+col2.metric("Avg. Post Score(Upvotes)", f"{filtered_df['score'].mean():.1f}")
 col3.metric("Avg. Comments", f"{filtered_df['num_comments'].mean():.1f}")
 
 if 'sentiment_score' in filtered_df.columns:
@@ -71,11 +70,11 @@ if 'sentiment_score' in filtered_df.columns:
 # Tabs for Visualizations
 tab1, tab2, tab3, tab4 = st.tabs(["Temporal Analysis", "Community Analysis", "Topic Analysis", "Content Explorer"])
 
-# Temporal Analysis   , labels={"created_utc": "Date", "count": "Posts"})
+# Temporal Analysis   
 with tab1:
     st.subheader("🕑 Post Activity Over Time")
     time_df = filtered_df.groupby(filtered_df['created_utc'].dt.date).size().reset_index(name='count')
-    fig = px.line(time_df, x='created_utc', y='count', title="Posts Over Time", labels={"created_utc": "Date", "count": "Posts"})
+    fig = px.line(time_df, x='created_utc', y='count', title="Posts Over Time", labels={"created_utc": "Date", "count": "Posts Count"})
     st.plotly_chart(fig, use_container_width=True)
    
     st.subheader("📉 Sentiment Trends")
@@ -174,7 +173,7 @@ with tab3:
             y='count', 
             orientation='v', 
             title="Top 10 Topics",
-            labels={'topic_name': 'Topic Name', 'count': 'Count'}  # Adding axis labels
+            labels={'topic_name': 'Topic Name', 'count': 'Posts Count'}  # Adding axis labels
         )
         st.plotly_chart(fig, use_container_width=True)
     else:
@@ -218,7 +217,7 @@ with tab4:
     
     if sort_by == "Most Recent":
         sorted_df = filtered_df.sort_values('created_utc', ascending=False)
-    elif sort_by == "Highest Score":
+    elif sort_by == "Highest Score(Upvotes)":
         sorted_df = filtered_df.sort_values('score', ascending=False)
     elif sort_by == "Most Comments":
         sorted_df = filtered_df.sort_values('num_comments', ascending=False)
