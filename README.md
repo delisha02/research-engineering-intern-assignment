@@ -177,7 +177,7 @@ Here’s how the dashboard looks:
 ![](images/Top%2010%20Discussion.png)
 ![](images/Overall%20Topic%20Distribution.png)
 ![](images/Explore%20Posts.png)
-![](images/Explore%20posts%20(sorted%20by%20Positive).png)
+
 ---
 
 ## **Future Enhancements**  
