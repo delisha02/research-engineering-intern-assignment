@@ -86,10 +86,12 @@ pip install -r requirements.txt
 ```python
 # Data cleaning 
 python src/preprocessing/clean_data.py
-
+```
+```python
 # Topic modeling
 python src/dashboard/models/topic_modeling.py
-
+```
+```python
 # Sentiment analysis
 python src/dashboard/models/sentiment_analysis.py
 
