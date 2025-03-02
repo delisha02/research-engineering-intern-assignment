@@ -63,7 +63,7 @@ if 'sentiment_score' in filtered_df.columns:
     if filtered_df['sentiment_score'].notna().sum() > 0:  # Check if any valid scores exist
         sentiment_avg = filtered_df['sentiment_score'].mean()
         sentiment_label = "Positive" if sentiment_avg > 0.05 else "Negative" if sentiment_avg < -0.05 else "Neutral"
-        col4.metric("Avg. Sentiment", f"{sentiment_label} ({sentiment_avg:.2f})")
+        col4.metric("Avg. Sentiment", f"{sentiment_label} ({sentiment_avg:.2f})", help="-1: Strongly Negative, 0: Neutral, +1: Strongly Positive")
     else:
         col4.metric("Avg. Sentiment", "No Sentiment Data")  # Prevents NaN display
 
@@ -79,6 +79,14 @@ with tab1:
     st.plotly_chart(fig, use_container_width=True)
    
     st.subheader("📉 Sentiment Trends")
+    st.markdown("""
+    ### Sentiment Scale  
+    - **-1.00 to -0.50** → **Strongly Negative** 😠  
+    - **-0.50 to -0.05** → **Slightly Negative** 😕  
+    - **-0.05 to 0.05** → **Neutral** 😐  
+    - **0.05 to 0.50** → **Slightly Positive** 🙂  
+    - **0.50 to 1.00** → **Strongly Positive** 😃  
+    """)
     if 'sentiment_score' in filtered_df.columns:
         sentiment_time = filtered_df.groupby(filtered_df['created_utc'].dt.date)['sentiment_score'].mean().reset_index()
         sentiment_time['created_utc'] = pd.to_datetime(sentiment_time['created_utc'])
@@ -146,7 +154,11 @@ with tab2:
 # Topic Analysis
 with tab3:
     
-    st.subheader("🔎 Top Topics of Discussion")
+    st.subheader("🔎 Topics of Discussion")
+    st.markdown("""
+        The ‘topics’ are semantically related keywords grouped together for classification.
+        Each topic represents a common theme or subject of discussion, helping to categorize Reddit posts based on their content.
+    """)
 
     if "topic_name" in filtered_df.columns and not filtered_df.empty:
         topic_counts = filtered_df['topic_name'].value_counts().reset_index()
