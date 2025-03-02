@@ -154,9 +154,19 @@ streamlit run src/dashboard/app.py
 
 ---
 
-## **Screenshots**  
- 
+## **Dashboard Overview**
+Here’s how the dashboard looks:
 
+![Dashboard](images/Key%20Metrics.png)
+![Sidebar to Filter](images/Filters.png)
+![](images/Posts%20Activity%20Over%20Time.png)
+![](images/Sentiments%20Over%20Time.png)
+![](images/Top%2015%20Subreddits.png)
+![](images/Top%2010%20Subreddits%20by%20Engagement.png)
+![](images/Top%2010%20Discussion.png)
+![](images/Overall%20Topic%20Distribution.png)
+![](images/Explore%20Posts.png)
+![](images/Explore%20posts%20(sorted%20by%20Positive).png)
 ---
 
 ## **Future Enhancements**  
