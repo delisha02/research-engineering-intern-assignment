@@ -83,15 +83,15 @@ pip install -r requirements.txt
 ``` 
 
 ### **3️⃣ Running the Scripts:**
-```python
+```bash
 # Data cleaning 
 python src/preprocessing/clean_data.py
 ```
-```python
+```bash
 # Topic modeling
 python src/dashboard/models/topic_modeling.py
 ```
-```python
+```bash
 # Sentiment analysis
 python src/dashboard/models/sentiment_analysis.py
 
